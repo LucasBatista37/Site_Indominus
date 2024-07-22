@@ -10,20 +10,27 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_9cr7r48', 'template_s3uk90d', form.current, {
-        publicKey: 'sYeK_oHWmE34BO883',
+      .sendForm('service_7ejcnlc', 'template_xc2svgf', form.current, {
+        publicKey: 'rIe6GyGsQfwrLeDyf',
       })
-      e.target.reset()
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Entre em contato</h2>
-      <span className="section__subtitle">Contate-me</span>
+      <h2 className="section__title__contact">Contate nos</h2>
+      <span className="section__subtitle">Fale com a gente</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Fale comigo</h3>
+          <h3 className="contact__title">Contatos</h3>
 
           <div className="contact__info">
             <div className="contact__card">
@@ -31,11 +38,11 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
-                lucas.batista9734@gmail.com
+                indominus.codev@gmail.com
               </span>
 
               <a
-                href="mailto:lucas.batista9734@gmail.com"
+                href="mailto:indominus.codev@gmail.com"
                 className="contact__button"
               >
                 Contate-me{" "}
@@ -44,30 +51,14 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
+              <i className="bx bxl-instagram contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">(13)996830085</span>
-
-              <a
-                href="https://wa.me/5513996830085?text=Olá, gostaria de falar com você!"
-                className="contact__button"
-              >
-                Contate-me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
-
-            <div className="contact__card">
-              <i className="bx bxl-linkedin contact__card-icon"></i>
-
-              <h3 className="contact__card-title">LinkedIn</h3>
-              <span className="contact__card-data">Lucas Batista</span>
+              <h3 className="contact__card-title">Instagram</h3>
+              <span className="contact__card-data">indominus.codev</span>
 
               <a
-                href="https://www.linkedin.com/in/lucas-batista-004212263/"
+                href="https://www.instagram.com/indominus.codev?igsh=MXQyYjZ1eXltd3c1aw=="
                 className="contact__button"
-                target="_blank" rel="noopener noreferrer"
               >
                 Contate-me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -77,7 +68,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Escreva sobre seu projeto</h3>
+          <h3 className="contact__title">Escreva sobre o seu interesse</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
@@ -106,14 +97,14 @@ const Contact = () => {
 
             <div className="contact__form-div contact__form-area">
               <label htmlFor="project" className="contact__form-tag">
-                Projeto
+                Assunto
               </label>
               <textarea
                 name="project"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Escreva sobre seu projeto"
+                placeholder="Escreva sobre seu interesse"
               ></textarea>
             </div>
 

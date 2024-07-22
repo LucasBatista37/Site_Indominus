@@ -5,30 +5,30 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Lucas</h1>
+        <h1 className="footer__title">Indominus</h1>
         <ul className="footer__list">
           <li>
             <a href="#" className="footer__link">
-              Sobre
+              Sobre nós
             </a>
           </li>
 
           <li>
             <a href="#portifolio" className="footer__link">
-              Projetos
+              Missão
             </a>
           </li>
 
           <li>
             <a href="#skills" className="footer__link">
-              Habilidades
+              Valores
             </a>
           </li>
         </ul>
 
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/lucas_batista38?igsh=anQ5ZmY4emRleXox"
+            href="https://www.instagram.com/indominus.codev?igsh=MXQyYjZ1eXltd3c1aw=="
             className="home__social-icon"
             target="_blank"
           >
@@ -36,23 +36,15 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/lucas-batista-004212263/"
+            href="mailto:indominus.codev@gmail.com"
             className="home__social-icon"
             target="_blank"
           >
-            <i class="uil uil-linkedin"></i>
-          </a>
-
-          <a
-            href="https://github.com/LucasBatista37"
-            className="home__social-icon"
-            target="_blank"
-          >
-            <i class="uil uil-github-alt"></i>
+            <i class="uil uil-envelope"></i>
           </a>
         </div>
 
-        <p className="footer__trademark">Lucas Batista©2006-2024</p>
+        <p className="footer__trademark">©2024 IndominusDev</p>
       </div>
     </footer>
   );

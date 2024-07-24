@@ -5,8 +5,6 @@
     padding-bottom: 1rem; /* Reduzindo o padding inferior */
 }
 
-
-
 .footer__title,
 .footer__link {
     color: var(--title-color);

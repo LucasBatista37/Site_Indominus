@@ -28,7 +28,7 @@ const Work = () => {
             <h3 className="work__title">Qualidade</h3>
             <p className="work__description">
               Estamos comprometidos em oferecer serviços de alta qualidade e que
-              atendam às necessidades do projeto.
+              atendam às necessidades do projeto e do usuário.
             </p>
           </div>
         </div>

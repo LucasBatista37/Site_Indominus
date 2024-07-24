@@ -70,6 +70,7 @@
     border-radius: 50%;
     justify-self: end;
     align-self: flex-start;
+    border: 5px solid var(--border-color); /* Adiciona uma borda de 5px com a cor especificada */
 }
 
 .home__scroll {

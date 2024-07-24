@@ -11,7 +11,7 @@ const teamData = [
   {
     name: 'Edkarllos Fernando',
     title: 'Desenvolvedor Database',
-    image: 'path/to/douglas.jpg',
+    image: 'path/to/edkarllos-foto.jpg',
   },
   {
     name: 'Lucas Batista',
@@ -21,12 +21,12 @@ const teamData = [
   {
     name: 'Nicholas Balbino',
     title: 'Desenvolvedor Full-stack',
-    image: 'path/to/danilo.jpg',
+    image: 'path/to/nicholas-foto.jpg',
   },
   {
     name: 'Pedro Lopes',
     title: 'Designer',
-    image: 'path/to/danilo.jpg',
+    image: 'path/to/lopes-foto.jpg',
   },
 ];
 

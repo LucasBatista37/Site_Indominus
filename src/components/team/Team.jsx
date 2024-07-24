@@ -6,17 +6,17 @@ const teamData = [
   {
     name: 'Adryan Alexander',
     title: 'Desenvolvedor Front-end',
-    image: '../../src/assets/adryan-foto.jpeg',
+    image: '../../assets/adryan-foto.jpeg',
   },
   {
     name: 'Edkarllos Fernando',
     title: 'Desenvolvedor Database',
-    image: 'path/to/edkarllos-foto.jpg',
+    image: '../../assets/edkarllos-foto.jpeg',
   },
   {
     name: 'Lucas Batista',
     title: 'Desenvolvedor Full-stack',
-    image: '../../src/assets/lucas-foto-black.jpeg',
+    image: '../../assets/lucas-foto-black.jpeg',
   },
   {
     name: 'Nicholas Balbino',

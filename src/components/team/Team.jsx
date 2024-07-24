@@ -6,7 +6,7 @@ const teamData = [
   {
     name: 'Adryan Alexander',
     title: 'Desenvolvedor Front-end',
-    image: 'path/to/marcelo.jpg',
+    image: 'src/assets/adryan-foto.jpeg',
   },
   {
     name: 'Edkarllos Fernando',
@@ -34,6 +34,7 @@ const Team = () => {
   return (
     <section className="team">
       <h2 className="team__title">Nossa Equipe</h2>
+      <span className="section__subtitle">Nossos membros</span>
       <div className="team__members">
         {teamData.map((member, index) => (
           <TeamMember 

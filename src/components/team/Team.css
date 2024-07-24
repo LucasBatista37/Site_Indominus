@@ -1,12 +1,10 @@
 .team {
   padding: 4rem 0;
-  background-color: var(--container-color);
 }
 
 .team__title {
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
 }
 
 .team__members {
@@ -15,4 +13,5 @@
   gap: 2rem;
   flex-wrap: wrap;
 }
+
 

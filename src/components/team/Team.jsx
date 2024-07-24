@@ -6,7 +6,7 @@ const teamData = [
   {
     name: 'Adryan Alexander',
     title: 'Desenvolvedor Front-end',
-    image: '../src/assets/adryan-foto.jpeg',
+    image: '../../src/assets/adryan-foto.jpeg',
   },
   {
     name: 'Edkarllos Fernando',
@@ -16,7 +16,7 @@ const teamData = [
   {
     name: 'Lucas Batista',
     title: 'Desenvolvedor Full-stack',
-    image: '../src/assets/lucas-foto-black.jpeg',
+    image: '../../src/assets/lucas-foto-black.jpeg',
   },
   {
     name: 'Nicholas Balbino',

@@ -1,32 +1,35 @@
 import React from 'react';
 import TeamMember from './TeamMember';
 import './Team.css';
+import adryanImage from '../../assets/adryan-foto.jpeg';
+import lucasImage from '../../assets/lucas-foto-black.jpeg';
+
 
 const teamData = [
   {
     name: 'Adryan Alexander',
     title: 'Desenvolvedor Front-end',
-    image: '../../src/assets/adryan-foto.jpeg',
+    image: adryanImage,
   },
   {
     name: 'Edkarllos Fernando',
     title: 'Desenvolvedor Database',
-    image: '../../assets/edkarllos-foto.jpeg',
+    image: 'path/to/douglas.jpg',
   },
   {
     name: 'Lucas Batista',
     title: 'Desenvolvedor Full-stack',
-    image: '../../src/assets/lucas-foto-black.jpeg',
+    image: lucasImage,
   },
   {
     name: 'Nicholas Balbino',
     title: 'Desenvolvedor Full-stack',
-    image: 'path/to/nicholas-foto.jpg',
+    image: 'path/to/danilo.jpg',
   },
   {
     name: 'Pedro Lopes',
     title: 'Designer',
-    image: 'path/to/lopes-foto.jpg',
+    image: 'path/to/danilo.jpg',
   },
 ];
 

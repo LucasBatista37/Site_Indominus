@@ -1,12 +1,15 @@
 import React from 'react';
 import TeamMember from './TeamMember';
 import './Team.css';
+import adryanImage from '../../assets/adryan-foto.jpeg';
+import lucasImage from '../../assets/lucas-foto-black.jpeg';
+
 
 const teamData = [
   {
     name: 'Adryan Alexander',
     title: 'Desenvolvedor Front-end',
-    image: 'src/assets/adryan-foto.jpeg',
+    image: adryanImage,
   },
   {
     name: 'Edkarllos Fernando',
@@ -16,7 +19,7 @@ const teamData = [
   {
     name: 'Lucas Batista',
     title: 'Desenvolvedor Full-stack',
-    image: 'src/assets/lucas-foto-black.jpeg',
+    image: lucasImage,
   },
   {
     name: 'Nicholas Balbino',
